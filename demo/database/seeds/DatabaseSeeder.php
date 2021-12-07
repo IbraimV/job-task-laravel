@@ -11,6 +11,13 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // $this->call(UserSeeder::class);
+        DB::table('parsers')->insert([
+            'start_url' => 'https://www.rbc.ru',
+            'selector_url' => '.news-feed__item.js-news-feed-item',
+            'selector_title' => 'h1',
+            'selector_image' => '.article__main-image__image',
+            'selector_image_attr' => 'src',
+            'selector_content' => '.article__text p',
+        ]);
     }
 }
