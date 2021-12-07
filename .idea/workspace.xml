@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d22bfc13-45e0-4fab-9675-6c66de16d8bd" name="Default Changelist" comment="" />
+    <list default="true" id="d22bfc13-45e0-4fab-9675-6c66de16d8bd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/demo/app/Http/Controllers/PostController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/app/Post.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/database/migrations/2021_12_07_123738_create_posts_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/demo/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -121,6 +132,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="21xOiYlyfOOfswsO3wpMNfPC4zd" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -129,8 +143,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/demo/resources/views/parser" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/demo/resources/views/parser" />
+      <recent name="$PROJECT_DIR$/demo/resources/views" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -148,11 +168,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638879472333</updated>
-      <workItem from="1638879483388" duration="771000" />
+      <workItem from="1638879483388" duration="1007000" />
+      <workItem from="1638880629569" duration="9533000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="458" y="184" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1638887694890">
+      <screen x="0" y="25" width="1440" height="800" />
+    </state>
+    <state x="458" y="184" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.25.1440.800@0.25.1440.800" timestamp="1638887694890" />
   </component>
 </project>
